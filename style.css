@@ -1,0 +1,231 @@
+/***** HEADER *****/
+
+nav {
+	text-align: right;
+}
+
+nav ul li {
+	font-family: "Times New Roman", Georgia, Serif;
+	list-style-type: none;
+	display: inline-block;
+	padding: 1%;
+	font-size: 1.2em;
+
+}
+
+.banner {
+	width: 100%;
+	height: 260px;
+	background: rgba(0,0,0, 0.5);
+	z-index: -1;
+}
+
+/***** GENERAL *****/
+
+h2, h3 {
+	font-family: "Times New Roman", Georgia, Serif;
+}
+
+h2, .blue-h4, h5{
+	color: #0431B4; 
+}
+
+h3 {
+	font-family: "Times New Roman", Georgia, Serif;
+	color: #0431B4;
+	font-size: 1.5em;
+	margin-bottom: 0%;
+
+}
+
+p {
+  line-height: 17px;
+}
+
+/***** COL 1 *****/
+
+.one-one {
+	position: absolute;
+	margin-top: -25%;
+	width: 80%;
+	height: 890px;
+	background: rgba(230, 230, 230, 0.5);
+	border: solid white 1px;
+	padding: 6%;
+}
+
+.mini {
+	color: #0431B4;
+	font-weight: bold;
+}
+
+.phone-numbers {
+	border-bottom: solid black 1px;
+	padding-bottom: 4%;
+}
+
+.email-form {
+	position: absolute;
+	width: 80%;
+	height: 500px;
+	background: rgba(206, 216, 246, 0.5);
+	border: solid white 1px;
+	margin-top: 292%;
+}
+
+#contact-agent {
+	margin-top: 5%;
+	margin-left: 30%;
+
+}
+
+#profile-name {
+	margin-top: 1%;
+	margin-left: 30%;
+}
+
+#profile-name {
+	font-size: 1.2em;
+}
+
+.quote {
+	font-family: "Times New Roman", Georgia, Serif;
+	font-style: italic;
+	font-size: 1.2em;
+	color: black;
+	padding-left: 27%;
+
+}
+
+.form-labels {
+
+	font-family: 'Arial';
+	color: #0431B4;
+}
+
+input {
+	border: 1.5px solid #ccc;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+  	-webkit-border-radius: 5px;
+  
+  padding: 1%;
+  margin-bottom: 2%;
+  padding-right: 28%;
+
+}
+
+#comments {
+	padding-bottom: 25%;
+}
+
+form {
+	padding: 5%;
+}
+
+.button {
+	padding: 5px 10px;
+	background: #ccc;
+	border: 0 none;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	margin-left: 63%;
+	margin-top: 5%;
+}
+
+
+/***** COL 2 *****/
+
+#recent-updates {
+	margin-left: -5%;
+}
+
+#date {
+	display: inline; /*NOT WORKING*/
+}
+
+.description {
+	font-style: italic;
+}
+
+.comment-links {
+	list-style-type: circle; 
+	color: black;
+	margin-top: 5%;
+	padding: 1%; 
+
+}
+
+.comment-area p {
+	padding-right: 13%;
+
+}
+
+#user-comments {
+	padding-right: 60%;
+}
+
+.buttontwo {
+	padding: 5px 10px;
+	background: #ccc;
+	border: 0 none;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	margin-left: 70%;
+
+
+}
+
+
+.divider {
+	border-style: solid;
+	border-bottom: thin;
+	border-color: #E6E6E6;
+}
+
+/***** COL 2 Products & Services *****/
+
+.thumbnail {
+	padding: 3%;
+	border: none;
+}
+
+/***** COL 3 *****/
+
+.col-md-6 {
+	padding-right: 3%;
+	padding-left: 3%;
+}
+
+.three-one {
+	width: 85%;
+	height: 380px;
+	/*background: #E6E6E6;*/
+	background: rgba(230, 230, 230, 0.5);
+	margin-top: 8%;
+	padding: 10%;
+	border: solid white 1px;
+}
+
+.three-one p a {
+	font-size: .8em;
+	font-weight: bold;
+}
+
+
+/***** FOOTER *****/
+
+footer {
+	position: absolute;
+	margin-bottom: 0;
+	width: 100%;
+	height: 300px;
+	background-color: #585858;
+}
+
+footer p {
+	 color: #D8D8D8;
+  	font-size: 1.2em;
+  	padding: 3%;
+  	letter-spacing: 0.03em;
+  	line-height: 1.1em;
